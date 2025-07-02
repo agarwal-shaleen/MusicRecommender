@@ -1,0 +1,6 @@
+pip install -r requirements.txt
+pip install lyricsgenius
+pip install spotipy python-dotenv
+cd src
+python preprocess.py
+streamlit run main.py
